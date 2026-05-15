@@ -1291,8 +1291,8 @@
 </code></pre></div>
 <p>如果 [RV] 表中某行 (DAY, SLOT_ID) 列的值为 (DAY1, SLOT_ID1)，则该值不能出现在其他任何地方。否则，这意味着同一医生在同一时间被预约了两次。从 Java 编程的角度来看，当这种情况发生时，数据库的 JDBC 驱动程序会抛出一个 <em>SQLException</em>。</p>
 <p><em>ID</em> 为 3 <em>的</em>行（参见上文 [1]）表示，2006 年 8 月 23 日为第 20 个时段和第 4 号客户预订了一次预约。[SLOTS] 表告诉我们，第 20 个时段对应于下午 4:20 至 4:40，并属于第 1 号医生（Marie PELISSIER 女士）。 [CLIENTS] 表显示，客户编号 4 是 Brigitte BISTROU 女士。</p>
-<p><a id="creation-bd"></a>
-<a id="refheading2087721855421712"></a></p>
+<p><a id="refheading2087721855421712"></a>
+<a id="creation-bd"></a></p>
 <h3 id="345">3.4.5. <span style="color: #4f81bd">生成数据库</span></h3>
 <p>要创建这些表并填充数据，您可以使用脚本 [dbrdvmedecins.sql]，该脚本可在示例存档 |此处| 中找到。</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000116000000AEE21872D0.png" width="195" height="122" style="display:inline-block; margin:4px;width:5.151cm;height:3.224cm;" class="odt-zoomable" data-zoom-src="images/1000000000000116000000AEE21872D0.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
